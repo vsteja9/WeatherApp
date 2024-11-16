@@ -1,10 +1,10 @@
-import { Box, Button, TextField, Typography } from "@mui/material";
+import { Box, TextField, Typography } from "@mui/material";
 import "./WeatherPage.css";
 import SearchIcon from "@mui/icons-material/Search";
 import sungifs from "../assets/sungifs.gif";
 import windIcon from "../assets/windIcon.png";
 import humidityIcon from "../assets/humidityIcon.png";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const API_KEY = "dc4ae5557fe372871d6b224ff92bee89";
 export default function WeatherPage() {
@@ -41,7 +41,6 @@ export default function WeatherPage() {
     // )
     //   .then((res) => res.json())
     //   .then((data) => {
-    //     console.log("data", data);
     //     const weather = {
     //       temparature: data.main.temp,
     //       location: data.name,
