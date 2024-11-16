@@ -9,7 +9,6 @@ import { useState } from "react";
 const API_KEY = "dc4ae5557fe372871d6b224ff92bee89";
 export default function WeatherPage() {
   const [city, setCity] = useState("");
-  const [datasubmit, setDataSubmit] = useState(false);
   const [weatherData, setWeatherData] = useState({
     temparature: "16",
     location: "Delhi",
