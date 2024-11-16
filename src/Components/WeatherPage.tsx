@@ -63,10 +63,12 @@ export default function WeatherPage() {
           placeholder="Search"
           size="small"
           value={city}
+          focused={false}
           onChange={(e) => {
             setCity(e.target.value);
           }}
           style={{
+            border: "none",
             backgroundColor: "white",
             borderRadius: "40px",
           }}
